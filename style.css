@@ -4,10 +4,26 @@
     box-sizing: border-box;
 }
 
-main > .container {
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+main {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+main > .main-container {
     width: 600px;
     height: 600px;
-    border: 1px solid #000;
 
     display: grid;
     grid-template-columns: repeat(16, 1fr);
